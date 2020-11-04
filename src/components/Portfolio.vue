@@ -1,8 +1,10 @@
 <template>
     <div>
         <div class="corinthian">
-            <img src="../assets/desktop.png" alt="desktop-1" class="img">
-            <img src="../assets/mobile.png" alt="desktop-1" class="img-2">
+            <div class="images">
+                <img src="../assets/desktop.png" alt="desktop-1" class="img">
+                <img src="../assets/mobile.png" alt="desktop-1" class="img-2">
+            </div>
             <div class="content"> 
                 <h3> Corinthian Distributors </h3>
                 <p> Wordpress, SASS, jQuery </p>
@@ -12,8 +14,10 @@
         </div>
 
         <div class="feintuch-2">
-            <img src="../assets/feintuch-desktop.png" alt="desktop-1" class="img">
-            <img src="../assets/feintuch-mobile.png" alt="desktop-1" class="img-3">
+            <div class="images">
+                <img src="../assets/feintuch-desktop.png" alt="desktop-1" class="img">
+                <img src="../assets/feintuch-mobile.png" alt="desktop-1" class="img-3">
+            </div>
             <div class="content-2"> 
                 <h3> Feintuch Law  </h3>
                 <p> Wordpress, SASS, jQuery </p>
@@ -30,27 +34,39 @@
     }
     .img {
         height: 50vh;
+        grid-column: 2 / span 4;
+        grid-row: 3 / span 1;
+        width: 100%;
     }
 
     .img-2{
         height: 50vh;
-        position: absolute;
-        bottom: 0;
+        grid-column: 5 / span 3;
+        width: 100%;
+        grid-row: 3 / span 2;
+        align-self: end;
     }
 
     .img-3 {
-        transform: translate(-300%, 40%);
         height: 50vh;
-        position: absolute;
-
+        position: absolute; 
+        left: -10px;  
+        bottom: -100px;     
     }
  
     .corinthian {
         display: flex;
-        padding: 2rem 2rem 8rem 2rem;
-        justify-content: center;
-        margin-bottom: 4rem;
+        padding: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    /* .images {
         position: relative;
+    } */
+    .images {
+        display: grid;
+        grid-template-columns: 40px 1fr 1fr 1fr 1fr 40px;
+        grid-template-rows: 40px 40px 1fr 40px 40px;
     }
 
     .content {
@@ -58,15 +74,14 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        padding-left: 5rem;
+        padding-left: 2rem;
     }
 
     .feintuch-2 {
-        padding: 2rem 3rem 2rem 2rem;
-        padding-top: 5rem;
+        padding: 3rem;
         display: flex;
         flex-direction: row-reverse;
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
     }
 
     .content-2 {
