@@ -49,14 +49,15 @@
 
     .img-3 {
         height: 50vh;
-        position: absolute; 
-        left: -10px;  
-        bottom: -100px;     
+        grid-column: 1 / span 2;
+        width: 100%;
+        grid-row: 3 / span 2;
+        align-self: end; 
     }
  
     .corinthian {
         display: flex;
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
 
     /* .images {
@@ -77,7 +78,7 @@
     }
 
     .feintuch-2 {
-        padding: 3rem;
+        padding: 1rem 2rem;
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: 2rem;
@@ -100,7 +101,8 @@
     }
 
     @media (max-width: 768px){
-        .corinthian {
+        .corinthian,
+        .feintuch-2 {
             flex-direction: column;
         }
 
@@ -108,7 +110,8 @@
             grid-column: 1 / span 5;
         }
 
-        .img-2{
+        .img-2,
+        .img-3 {
             grid-column: 5 / span 3;
             grid-row: 4 / span 1;
 
@@ -116,6 +119,11 @@
         .content {
             text-align: center;
             padding-left: 0;
+        }
+
+        .content-2 {
+            text-align: center;
+            padding: 0
         }
 
         .button {

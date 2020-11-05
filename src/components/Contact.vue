@@ -8,9 +8,6 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                    <div>604 728 8182</div>
-                </div>
                 <div class="col-lg-4 mr-auto text-center">
                     <a class="link" href="https://www.linkedin.com/in/arensmandyk/">LinkedIn</a>
                 </div>
