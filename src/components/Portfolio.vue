@@ -56,8 +56,7 @@
  
     .corinthian {
         display: flex;
-        padding: 3rem;
-        margin-bottom: 2rem;
+        padding: 2rem;
     }
 
     /* .images {
@@ -101,35 +100,26 @@
     }
 
     @media (max-width: 768px){
-        .corinthian,
-        .feintuch-2 {
+        .corinthian {
             flex-direction: column;
-            margin-bottom: 1rem;
-            padding: 1rem 1rem 0 1rem;
         }
 
-        .img-2 {
-            display: none;
+        .img {
+            grid-column: 1 / span 5;
         }
 
+        .img-2{
+            grid-column: 5 / span 3;
+            grid-row: 4 / span 1;
+
+        }
         .content {
+            text-align: center;
             padding-left: 0;
-            padding-top: 1rem;
-            text-align: center;
-        }
-
-        .content-2 {
-            padding: 1rem 0;
-            text-align: center;
-            margin-bottom: 2rem;
         }
 
         .button {
             width: 100%;
-        }
-
-        .img-3 {
-            display: none;
         }
     }
 
