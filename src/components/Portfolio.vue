@@ -56,7 +56,7 @@
 
 <style>
     #portfolio {
-        font-family: 'EB Garamond', serif;
+        font-family: 'Oxygen', sans-serif;
     }
     .button {
         width: 50%;

@@ -19,7 +19,7 @@
 
 <style>
     #about {
-        font-family: 'EB Garamond', serif;
+        font-family: 'Oxygen', sans-serif;
         background-color: #F9A602 !important;
         padding: 5rem 0;
     }
