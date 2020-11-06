@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="portfolio">
         <div class="corinthian">
             <div class="images">
                 <img src="../assets/desktop.png" alt="desktop-1" class="img">
@@ -22,6 +22,32 @@
                 <h3> Feintuch Law  </h3>
                 <p> Wordpress, SASS, jQuery </p>
                 <p> Feintuch Law is a boutique real estate law firm offering sophisticated legal representation, personal attention, and private real estate financing. </p>
+                <button class="btn btn-warning button"> <a class="link" href="https://feintuchlaw.com/">View Site </a></button>
+            </div>
+        </div>
+
+        <div class="corinthian">
+            <div class="images">
+                <img src="../assets/sts-desktop.png" alt="desktop-1" class="img">
+                <img src="../assets/sts-mobile.png" alt="desktop-1" class="img-2">
+            </div>
+            <div class="content"> 
+                <h3> Save The Sales </h3>
+                <p> Wordpress, SASS, jQuery </p>
+                <p> A campaign in Victoria, BC to encourage people to shop local and be entered to win prizes.  The design look and feel were inspired by the 1980s - so retro! </p>
+                <button class="btn btn-warning button"><a class="link" href="https://savethesales.ca/"> View Site </a></button>
+            </div>
+        </div>
+
+        <div class="feintuch-2">
+            <div class="images">
+                <img src="../assets/maps-desktop.png" alt="desktop-1" class="img">
+                <img src="../assets/maps-mobile.png" alt="desktop-1" class="img-3">
+            </div>
+            <div class="content-2"> 
+                <h3> MapsMapsMaps  </h3>
+                <p> Vue, Express, JavaScript, Jest </p>
+                <p> A Vue app build with Google JavaScript API. Users are able to search and save addresses. Built with Vue and ran unit tests with Jest. </p>
                 <button class="btn btn-warning button"> <a class="link" href="https://feintuchlaw.com/">View Site </a></button>
             </div>
         </div>
@@ -57,12 +83,9 @@
  
     .corinthian {
         display: flex;
-        padding: 1rem 2rem;
+        padding: 0 2rem;
     }
 
-    /* .images {
-        position: relative;
-    } */
     .images {
         display: grid;
         grid-template-columns: 40px 1fr 1fr 1fr 1fr 40px;
@@ -78,18 +101,18 @@
     }
 
     .feintuch-2 {
-        padding: 1rem 2rem;
+        padding: 0 2rem;
         display: flex;
         flex-direction: row-reverse;
-        margin-bottom: 2rem;
     }
 
     .content-2 {
-        padding: 3rem;
+        padding: 2rem;
         display: flex; 
         flex-direction: column;
-        align-content: center;
+        align-items: flex-end;
         justify-content: center;
+        text-align: right;
     }
 
     .link {
@@ -123,7 +146,8 @@
 
         .content-2 {
             text-align: center;
-            padding: 0
+            padding: 0;
+            align-items: center;
         }
 
         .button {
