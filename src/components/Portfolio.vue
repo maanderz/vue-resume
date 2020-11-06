@@ -48,13 +48,16 @@
                 <h3> MapsMapsMaps  </h3>
                 <p> Vue, Express, JavaScript, Jest </p>
                 <p> A Vue app build with Google JavaScript API. Users are able to search and save addresses. Built with Vue and ran unit tests with Jest. </p>
-                <button class="btn btn-warning button"> <a class="link" href="https://feintuchlaw.com/">View Site </a></button>
+                <button class="btn btn-warning button"> <a class="link" href="https://sleepy-chamber-28831.herokuapp.com/">View Site </a></button>
             </div>
         </div>
     </div>
 </template>
 
 <style>
+    #portfolio {
+        font-family: 'EB Garamond', serif;
+    }
     .button {
         width: 50%;
     }

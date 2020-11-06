@@ -10,7 +10,7 @@
                         technology, therefore I'm looking for a company willing to offer me a placement amongst them. I
                         would offer my full commitment and be a pleasant and friendly addition to your team in return!
                     </p>
-                    <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Check out my work</a>
+                    <a class="btn btn-light btn-xl js-scroll-trigger" href="https://github.com/maanderz">Check out my work</a>
                 </div>
             </div>
         </div>
@@ -19,12 +19,14 @@
 
 <style>
     #about {
+        font-family: 'EB Garamond', serif;
         background-color: #F9A602 !important;
         padding: 5rem 0;
     }
 
     .intro-text {
         color: white;
+        font-size: 24px;
     }
 
     .divider {
