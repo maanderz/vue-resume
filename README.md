@@ -1,5 +1,7 @@
 # resume
 
+https://hungry-lewin-119501.netlify.app/
+
 ## Project setup
 ```
 npm install
