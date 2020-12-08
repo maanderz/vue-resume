@@ -2,6 +2,8 @@
 
 https://hungry-lewin-119501.netlify.app/
 
+A resume built with VueJS to demonstrate some of my previous work.
+
 ## Project setup
 ```
 npm install
